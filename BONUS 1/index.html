@@ -10,10 +10,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <link rel="stylesheet" href="css/12grid-framework-desktop.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/effect.css">
+
+        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -198,8 +202,77 @@
                     </div>
     
                     <div class="col-xl-4">
+                        <div class="row align-end">
+                            <div class="col-xl-4 col-xl-offset-1">
+                                <div id="play-btn" onclick="playCoachella()">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                                <div id="pause-btn" onclick="pauseCoachella()">
+                                    <i class="fa-regular fa-circle-pause"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-xl-offset-3">
+                                <div class="mascotte-container">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-xl-offset-8 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-xl-offset-8 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-1 col-xl-offset-8 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-1 col-xl-offset-8 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-1 col-xl-offset-8 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-5 col-xl-offset-2 backcol-main"></div>
+                                        <div class="col-xl-1 col-xl-offset-1 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-8 col-xl-offset-1 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-2 backcol-main"></div>
+                                        <div class="col-xl-2 backcol-sec"></div>
+                                        <div class="col-xl-1 backcol-main"></div>
+                                        <div class="col-xl-2 backcol-sec"></div>
+                                        <div class="col-xl-2 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-2 backcol-main"></div>
+                                        <div class="col-xl-2 backcol-sec"></div>
+                                        <div class="col-xl-1 backcol-main"></div>
+                                        <div class="col-xl-2 backcol-sec"></div>
+                                        <div class="col-xl-2 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-9 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-xl-offset-1 backcol-main"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-5 col-xl-offset-2 backcol-main"></div>
+                                    </div>
+                                    <div class="mascotte-txt-container">
+                                        <div class="mascotte-txt">
+                                            Music on,<br>
+                                            world off!
+                                        </div>
+                                        <div class="mascotte-item1"></div>
+                                        <div class="mascotte-item2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="img-container">
-                            <img src="img/vinyl_record.png" alt="Selected Track">
+                            <img id="img-vinyl" src="img/vinyl_record.png" alt="Selected Track">
                             <div id="img-layover"></div>
                         </div>
                     </div>

@@ -4,6 +4,7 @@
 
 .img-container img {
     animation: play 6s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes play {
@@ -14,6 +15,7 @@
 
 #img-layover {
     animation: img-timing 30s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes img-timing {
@@ -25,6 +27,7 @@
 .sfx-1-l,
 .sfx-1-r {
     animation: sfx1 1s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes sfx1 {
@@ -36,6 +39,7 @@
 .sfx-2-l,
 .sfx-2-r {
     animation: sfx2 1s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes sfx2 {
@@ -47,6 +51,7 @@
 .sfx-3-l,
 .sfx-3-r {
     animation: sfx3 1s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes sfx3 {
@@ -58,6 +63,7 @@
 .sfx-4-l,
 .sfx-4-r {
     animation: sfx4 1s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes sfx4 {
