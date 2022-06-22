@@ -3,7 +3,23 @@
 ************************************/
 
 .debug .box {
-    height: 100px;
+    height: 50px;
     background-color: aqua;
-    border: 5px solid black;
+    border: 5px solid var(--color-black);
+    text-align: center;
+    padding: 10px;
+}
+
+.debug .box-container {
+    background-color: aqua;
+    border: 5px solid var(--color-black);
+    padding: 10px;
+}
+
+.debug .box-inner {
+    background-color: greenyellow;
+    border: 5px solid var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
 }
