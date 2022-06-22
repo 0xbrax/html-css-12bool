@@ -4,16 +4,35 @@
 
 /* HEADER */
 
+body {
+    background-color: var(--color-gray);
+}
+
 header {
     text-align: center;
+    color: var(--color-black);
+    background-color: var(--color-orange);
+    padding: 15px;
+}
+
+main {
+    margin-top: 15px;
 }
 
 /* SOUNDBAR */
 
-.soundbar {
-    height: 30px;
+.soundbar-l {
+    height: 50px;
     border: 2px solid var(--color-black);
-    border-radius: 5px;
+    border-right: 0;
+    margin-bottom: 5px;
+}
+
+.soundbar-r {
+    height: 50px;
+    border: 2px solid var(--color-black);
+    border-left: 0;
+    margin-bottom: 5px;
 }
 
 .sbar-1 {
@@ -64,7 +83,107 @@ header {
     background-color: var(--soundbar-12);
 }
 
+.sound-container {
+    position: relative;
+}
+
+.sfx-1-l {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 10%;
+    box-shadow: -10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-2-l {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 20%;
+    box-shadow: -10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-3-l {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50%;
+    box-shadow: -10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-4-l {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 70%;
+    box-shadow: -10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-1-r {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 10%;
+    box-shadow: 10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-2-r {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 20%;
+    box-shadow: 10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-3-r {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50%;
+    box-shadow: 10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
+.sfx-4-r {
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 70%;
+    box-shadow: 10px 0px 0px 0px rgba(167, 169, 190, 0.8);
+}
+
 /* PLAYER */
+
+.img-container {
+    position: relative;
+}
+
+#img-layover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 132px;
+    height: 132px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.5);
+}
 
 .img-container img {
     width: 100%;

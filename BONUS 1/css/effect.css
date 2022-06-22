@@ -1,0 +1,67 @@
+/************************************
+    EFFECT
+************************************/
+
+.img-container img {
+    animation: play 6s linear infinite;
+}
+
+@keyframes play {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#img-layover {
+    animation: img-timing 30s linear infinite;
+}
+
+@keyframes img-timing {
+    100% {
+        box-shadow: 0px 0px 0px 114px rgba(255,255,255,0.1);
+    }
+}
+
+.sfx-1-l,
+.sfx-1-r {
+    animation: sfx1 1s linear infinite;
+}
+
+@keyframes sfx1 {
+    60% {
+        width: 40%;
+    }
+}
+
+.sfx-2-l,
+.sfx-2-r {
+    animation: sfx2 1s linear infinite;
+}
+
+@keyframes sfx2 {
+    50% {
+        width: 60%;
+    }
+}
+
+.sfx-3-l,
+.sfx-3-r {
+    animation: sfx3 1s linear infinite;
+}
+
+@keyframes sfx3 {
+    40% {
+        width: 70%;
+    }
+}
+
+.sfx-4-l,
+.sfx-4-r {
+    animation: sfx4 1s linear infinite;
+}
+
+@keyframes sfx4 {
+    50% {
+        width: 80%;
+    }
+}

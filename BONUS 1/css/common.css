@@ -13,12 +13,15 @@
 /* UTILITY */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 :root {
     --color-black: #000000;
     --color-white: #FFFFFF;
+    --color-gray: #a7a9be;
+    --color-orange: #ff8906;
+    --color-green: #2cb67d;
 
     --soundbar-1: #7301ff;
     --soundbar-2: #010dff;
@@ -51,6 +54,14 @@ body {
     width: 100%;
 }
 
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
 /* COMMON */
 
 a:link {text-decoration: none;}
@@ -64,4 +75,8 @@ img {
 
 ul {
     list-style: none;
+}
+
+h1 {
+    font-size: 50px;
 }
