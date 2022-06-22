@@ -17,6 +17,7 @@ header {
 
 main {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* SOUNDBAR */
@@ -169,6 +170,11 @@ main {
 
 /* MASCOTTE */
 
+#mascotte-container {
+    position: relative;
+    z-index: 99;
+}
+
 .backcol-main {
     background-color: var(--color-black);
     height: 12px;
@@ -176,17 +182,17 @@ main {
 }
 
 .backcol-sec {
-    background-color: var(--color-orange);
+    background-color: greenyellow;
 }
 
-.mascotte-container {
+.mcdonalds-hamburger {
     position: relative;
 }
 
-.mascotte-txt-container {
+#mascotte-txt-container {
     position: absolute;
     top: -140px;
-    left: -190px;
+    left: 65px;
     text-align: center;
 }
 

@@ -50,7 +50,7 @@
 
 .sfx-3-l,
 .sfx-3-r {
-    animation: sfx3 1s linear infinite;
+    animation: sfx3 0.75s linear infinite;
     animation-play-state: paused;
 }
 
@@ -62,12 +62,79 @@
 
 .sfx-4-l,
 .sfx-4-r {
-    animation: sfx4 1s linear infinite;
+    animation: sfx4 0.5s linear infinite;
     animation-play-state: paused;
 }
 
 @keyframes sfx4 {
     50% {
         width: 80%;
+    }
+}
+
+#play-btn i,
+#pause-btn i {
+    transition: all 0.3s ease-out 0.2s;
+}
+
+#play-btn:hover i,
+#pause-btn:hover i {
+    transform: scale(125%);
+}
+
+.mascotte-container-1 {
+    animation: mascotte-move-1 1s linear forwards;
+    animation-play-state: paused;
+}
+
+.mascotte-container-2 {
+    animation: mascotte-move-2 1s linear forwards;
+    animation-play-state: paused;
+}
+
+@keyframes mascotte-move-1 {
+    100% {
+        transform: rotate(180deg) translate(0, -75%);    
+        filter: invert(100%) sepia(22%) saturate(7199%) hue-rotate(31deg) brightness(121%) contrast(107%);
+    }
+}
+
+@keyframes mascotte-move-2 {
+    0% {
+        transform: rotate(180deg) translate(0, -75%);    
+        filter: invert(100%) sepia(22%) saturate(7199%) hue-rotate(31deg) brightness(121%) contrast(107%);
+    }
+    100% {
+        transform: rotate(0) translate(0, 0);
+    }
+}
+
+.mascotte-txt-container-1 {
+    animation: txt-move-1 1s linear forwards;
+    animation-play-state: paused;
+
+}
+
+.mascotte-txt-container-2 {
+    animation: txt-move-2 1s linear forwards;
+    animation-play-state: paused;
+
+}
+
+@keyframes txt-move-1 {
+    100% {
+        top: -95px;
+        left: 95px;
+    }
+}
+
+@keyframes txt-move-2 {
+    0% {
+        top: -95px;
+        left: 95px;
+    }
+    100% {
+        top: -140px;
+        left: 65px;
     }
 }
