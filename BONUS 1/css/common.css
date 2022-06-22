@@ -19,6 +19,19 @@ body {
 :root {
     --color-black: #000000;
     --color-white: #FFFFFF;
+
+    --soundbar-1: #7301ff;
+    --soundbar-2: #010dff;
+    --soundbar-3: #018aff;
+    --soundbar-4: #01fff6;
+    --soundbar-5: #01ff79;
+    --soundbar-6: #07ff01;
+    --soundbar-7: #84ff01;
+    --soundbar-8: #fffc01;
+    --soundbar-9: #ff7f01;
+    --soundbar-10: #ff0101;
+    --soundbar-11: #ff017f;
+    --soundbar-12: #ff00ff;
 }
 
 .clearfix::after {

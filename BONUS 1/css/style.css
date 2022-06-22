@@ -1,0 +1,71 @@
+/************************************
+    STYLE
+************************************/
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+/* SOUNDBAR */
+
+.soundbar {
+    height: 30px;
+    border: 2px solid var(--color-black);
+    border-radius: 5px;
+}
+
+.sbar-1 {
+    background-color: var(--soundbar-1);
+}
+
+.sbar-2 {
+    background-color: var(--soundbar-2);
+}
+
+.sbar-3 {
+    background-color: var(--soundbar-3);
+}
+
+.sbar-4 {
+    background-color: var(--soundbar-4);
+}
+
+.sbar-5 {
+    background-color: var(--soundbar-5);
+}
+
+.sbar-6 {
+    background-color: var(--soundbar-6);
+}
+
+.sbar-7 {
+    background-color: var(--soundbar-7);
+}
+
+.sbar-8 {
+    background-color: var(--soundbar-8);
+}
+
+.sbar-9 {
+    background-color: var(--soundbar-9);
+}
+
+.sbar-10 {
+    background-color: var(--soundbar-10);
+}
+
+.sbar-11 {
+    background-color: var(--soundbar-11);
+}
+
+.sbar-12 {
+    background-color: var(--soundbar-12);
+}
+
+/* PLAYER */
+
+.img-container img {
+    width: 100%;
+}
