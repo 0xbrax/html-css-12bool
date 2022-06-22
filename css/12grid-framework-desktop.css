@@ -1,0 +1,127 @@
+/************************************
+    12 GRID FRAMEWORK DESKTOP FIRST
+************************************/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+/* 12 GRID */
+
+.col-xl-1 {
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.col-xl-2 {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.col-xl-3 {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+}
+
+.col-xl-4 {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+.col-xl-5 {
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+}
+
+.col-xl-6 {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
+.col-xl-7 {
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+}
+
+.col-xl-8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+
+.col-xl-9 {
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+}
+
+.col-xl-10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.col-xl-11 {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
+
+.col-xl-12 {
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
+
+/* 12 GRID OFFSET */
+
+.col-xl-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+}
+
+.col-xl-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+.col-xl-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+.col-xl-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+.col-xl-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+.col-xl-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+.col-xl-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+.col-xl-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+.col-xl-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+.col-xl-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+.col-xl-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+}
