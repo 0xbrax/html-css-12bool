@@ -17,10 +17,15 @@
 }
 
 .debug .box-inner {
+    height: 50px;
     background-color: greenyellow;
     border: 5px solid var(--color-black);
+}
+
+.debug .box-half {
+    background-color: aqua;
+    border: 5px solid var(--color-black);
     text-align: center;
-    padding: 10px;
 }
 
 .debug section {
