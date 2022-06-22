@@ -1,0 +1,54 @@
+/************************************
+    COMMON
+************************************/
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* COMMON */
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
