@@ -12,13 +12,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <link rel="stylesheet" href="css/12grid-framework-desktop.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/effect.css">
-
-        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -203,7 +202,7 @@
                     </div>
     
                     <div class="col-xl-4">
-                        <div class="mcdonalds-hamburger">
+                        <div class="mascotte-txt-cloud">
                             <div id="mascotte-txt-container">
                                 <div class="mascotte-txt">
                                     Music on,<br>
@@ -213,8 +212,9 @@
                                 <div class="mascotte-item2"></div>
                             </div>
                         </div>
-                        <div class="row align-end">
-                            <div class="col-xl-4 col-xl-offset-1">
+
+                        <div class="row">
+                            <div id="btn-main" class="col-xl-4 col-xl-offset-8">
                                 <div id="play-btn" onclick="playCoachella()">
                                     <i class="fa-regular fa-circle-play"></i>
                                 </div>
@@ -222,8 +222,21 @@
                                     <i class="fa-regular fa-circle-pause"></i>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-xl-4 col-xl-offset-3">
+                        <div class="row align-end">
+                            <div class="col-xl-4">
+                                <div class="row align-end hamburger-supersayan">
+                                    <i class="ri-speaker-fill"></i>
+                                    <img id="goku" src="img/goku-hair.gif" alt="Goku Super Sayan">
+                                    <div id="stick">
+                                        <img src="img/stick-arm.png" alt="Stickman">
+                                        <i id="hamburger" class="fa-solid fa-burger"></i>
+                                    </div>
+                                </div>                            
+                            </div>
+
+                            <div class="col-xl-4 col-xl-offset-4">
                                 <div id="mascotte-container">
                                     <div class="row">
                                         <div class="col-xl-4 col-xl-offset-8 backcol-main"></div>
@@ -453,5 +466,7 @@
                 </div>
             </section>
         </main>
+    
+        <script src="js/script.js"></script>
     </body>
 </html>

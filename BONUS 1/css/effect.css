@@ -79,7 +79,7 @@
 
 #play-btn:hover i,
 #pause-btn:hover i {
-    transform: scale(125%);
+    transform: scale(110%);
 }
 
 .mascotte-container-1 {
@@ -123,18 +123,80 @@
 
 @keyframes txt-move-1 {
     100% {
-        top: -95px;
-        left: 95px;
+        top: 20px;
+        left: 110px;
     }
 }
 
 @keyframes txt-move-2 {
     0% {
-        top: -95px;
-        left: 95px;
+        top: 20px;
+        left: 110px;
     }
     100% {
-        top: -140px;
-        left: 65px;
+        top: -30px;
+        left: 80px;
+    }
+}
+
+#stick {
+    animation: stick-move 3s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes stick-move {
+    from {
+        transform: rotate(-100deg);
+        bottom: -15px;
+    }
+    10% {
+        transform: rotate(-100deg);
+        bottom: -15px;
+    }
+    
+    12% {
+        transform: rotate(-120deg);
+        bottom: -5px;
+    }
+    80% {
+        transform: rotate(-120deg);
+        bottom: -5px;
+    }
+    to {
+        transform: rotate(-100deg);
+        bottom: -15px;
+    }
+}
+
+#hamburger {
+    animation: hamburger-move 3s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes hamburger-move {
+    from {
+        transform: rotate(120deg);
+        top: 55px;
+        left: 30px;
+    }
+    12% {
+        transform: rotate(120deg);
+        top: 55px;
+        left: 30px;
+    }
+    46% {
+        transform: rotate(-420deg);
+        top: 150px;
+        left: 215px;
+    }
+    80% {
+        transform: rotate(-600deg);
+        top: 55px;
+        left: 30px;
+    }
+    to {
+        transform: rotate(-600deg);
+        top: 55px;
+        left: 30px;
     }
 }

@@ -185,14 +185,14 @@ main {
     background-color: greenyellow;
 }
 
-.mcdonalds-hamburger {
+.mascotte-txt-cloud {
     position: relative;
 }
 
 #mascotte-txt-container {
     position: absolute;
-    top: -140px;
-    left: 65px;
+    top: -30px;
+    left: 80px;
     text-align: center;
 }
 
@@ -219,8 +219,16 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     position: absolute;
-    bottom: -75px;
+    bottom: -85px;
     right: -10px;
+}
+
+#btn-main {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 9;
 }
 
 #play-btn i,
@@ -232,11 +240,48 @@ main {
     display: none;
 }
 
+.hamburger-supersayan {
+    text-align: center;
+    position: relative;
+}
+
+.hamburger-supersayan i {
+    font-size: 75px;
+    line-height: 65px;
+}
+
+#goku {
+    width: 120px;
+    position: absolute;
+    top: -83px;
+    left: -22px;
+    display: none;
+}
+
+#stick {
+    position: absolute;
+    transform: rotate(-100deg);
+    bottom: -15px;
+    right: 5px;
+}
+
+#stick img {
+    width: 40px;
+}
+
+#hamburger {
+    font-size: 40px;
+    position: absolute;
+    z-index: 99;
+    transform: rotate(120deg);
+    top: 55px;
+    left: 30px;
+}
+
 /* PLAYER */
 
 .img-container {
     position: relative;
-    margin-top: 15px;
 }
 
 #img-layover {
